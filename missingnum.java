@@ -1,12 +1,11 @@
 import java.util.Scanner;
 public class missingnum {
     public static void main(String[] args) {
-     // int[] numbers = {1, 2, 3, 5, 6, 7, 8, 9,16};
      Scanner sc=new Scanner(System.in);
      int a,numbers[];
      a=sc.nextInt();  
      numbers=new int[a];
-      System.out.print("Input array: ");
+      System.out.print("Input numbers: ");
       for (int i = 0; i < numbers.length; i++) {
         System.out.print(numbers[i]=sc.nextInt());
 
